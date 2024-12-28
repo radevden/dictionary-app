@@ -12,7 +12,7 @@ function App() {
         <Dictionary />
       </main>
       <footer>
-        <hr/>
+      <hr/>
         Created by <a href="https://github.com/radevden" target="_blank">Denisa Radevová</a>
         </footer>
     </div>
