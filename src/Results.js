@@ -5,10 +5,10 @@ export default function Results(props){
     console.log(props.results);
     if(props.results) {
         return <div className="results">
-            <div className="searchedWord">
-                <h2>{props.results.word}</h2>
-                <h4>{props.results.phonetic}</h4>
-            </div>
+                    <div className="searchedWord">
+                        <h1>{props.results.word}</h1>
+                        <h3>{props.results.phonetic}</h3>
+                    </div>
             {props.results.meanings.map(function(meaning,index){
                 return (
                     <div key={index} className="searchedResults">
