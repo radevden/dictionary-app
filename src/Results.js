@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import Synonyms from "./Synonyms.js"
 
 export default function Results(props){
     console.log(props.results);
@@ -15,9 +16,9 @@ export default function Results(props){
                         <h3><strong>{meaning.partOfSpeech}</strong></h3>
                         <p>{meaning.definition}</p>
                         {meaning.example === null ? null : (<p><em>E.g.: {meaning.example}</em></p>)}
+                        <Synonyms synonyms={meaning.synonyms}/>
                     </div>)
             })}
-            
             </div>;
     } else {
         return <p><i>What are you looking for?</i></p>;
