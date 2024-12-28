@@ -38,7 +38,7 @@ export default function Dictionary (){
             <form onSubmit={handleSubmit}>
                 <input className="search" type="search" placeholder="type a word" onChange={displaySearch}></input>
                 <input className="submit" type="submit" value="Submit"></input>
-            </form>
+            </form> 
             <small className="example">i.e.: moon, travel, wine</small>
         </div>
         <Results results={results} />
