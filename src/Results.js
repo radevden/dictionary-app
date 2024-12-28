@@ -20,6 +20,6 @@ export default function Results(props){
             
             </div>;
     } else {
-        return null;
+        return <p><i>What are you looking for?</i></p>;
     }
 }

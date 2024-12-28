@@ -13,7 +13,7 @@ function App() {
       </main>
       <footer>
         <hr/>
-        Created by DR
+        Created by <a href="https://github.com/radevden" target="_blank">Denisa Radevová</a>
         </footer>
     </div>
   );
