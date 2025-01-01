@@ -1,5 +1,6 @@
 import './App.css';
 import Dictionary from "./Dictionary.js";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       </main>
       <footer>
       <hr/>
-        Created by <a href="https://github.com/radevden" target="_blank" rel="noopener noreferrer">Denisa Radevová</a>
+        <p>
+        This project was coded by Denisa Radevová and is open-sourced on <a href="https://github.com/radevden" target="_blank" rel="noopener noreferrer">GitHub</a> and hosted on Netlify</p>
         </footer>
     </div>
   );
